@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background: #f6efe7; 
+    color: #111;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    z-index: 1000;
+}
+
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    height: 45px;
+    width: auto;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #a83c32; 
+}
+
+.sign-btn {
+    background: #a83c32; 
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.sign-btn:hover {
+    background: #77362c;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background: #fff;
+    padding: 35px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    max-width: 500px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    resize: vertical;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #a83c32;
+    box-shadow: 0 0 5px rgba(168, 60, 50, 0.15);
+    outline: none;
+}
+
+.contact-form button[type="submit"] {
+    background: #a83c32;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.contact-form button[type="submit"]:hover {
+    background: #77362c;
+    transform: translateY(-2px);
+}
+
+.contact-info {
+    background: #f6efe7;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 28px 24px;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+}
+
+.contact-info h2 {
+    color: #a83c32;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.center {
+    text-align: center;
+}
+
+.section {
+    padding-top: 120px;
+}
+
+
+/* Signup Page Styles */
+.signup-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160 px;
+}
+
+.signup-box {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: none;
+}
+
+
+.signup-box h2 {
+    margin-bottom: 25px;
+    color: #111;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.input-group input:focus {
+    border-color: #a83c32;
+    box-shadow: 0 0 5px rgba(168, 60, 50, 0.5);
+    outline: none;
+}
+
+.btn.sign-btn {
+    width: 100%;
+    padding: 12px;
+    background: #a83c32;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn.sign-btn:hover {
+    background: #77362c;
+    transform: translateY(-2px);
+}
