@@ -1,10 +1,10 @@
-<iframe src="navigation.html" style="width:100%; height:150px; border:none;"></iframe>
-<link rel="stylesheet" href="style.css">
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UrbanHood - Premium Hoodies</title>
+    <link rel="stylesheet" href="style.css">
     
     <style>
         body {
@@ -116,13 +116,36 @@
             background-color: blue;
             color: white;
         }
+
+        h1 {
+            color: #600f0f;
+            margin-bottom: 0px;
+        }
+
+        h4 {
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        .footer-link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 150px;
+            border: none;
+        }
     </style>
 </head>
 <body>
+    <iframe src="navigation.html" title="Navigation"></iframe>
+    
     <header>
         <div id="container-name">
-            <h1 style="color: #600f0f; margin-bottom: 0px;">Welcome to UrbanHood</h1>
-            <h4 style="color: #000000; margin-bottom: 5px;">UrbanHood is your destination for premium quality hoodies designed for urban living. We blend comfort, style, and durability to create hoodies that fit your everyday adventures. From classic black to urban gray and eco-friendly green.</h4>
+            <h1>Welcome to UrbanHood</h1>
+            <h4>UrbanHood is your destination for premium quality hoodies designed for urban living. We blend comfort, style, and durability to create hoodies that fit your everyday adventures. From classic black to urban gray and eco-friendly green.</h4>
         </div>
         
     
@@ -162,11 +185,11 @@
         <table class="gallery-table">
             <tr>
                 <td>
-                    <img src="images/picture.jpg" width="500px" >
+                    <img src="images/picture.jpg" width="500px" alt="Black Hoodie - Urban Street Style">
                     <p>Black Hoodie - Urban Street Style</p>
                 </td>
                 <td>
-                    <img src="images/picturegirl.jpg" width="500px" >
+                    <img src="images/picturegirl.jpg" width="500px" alt="Green Hoodie - Casual Comfort">
                     <p>Green Hoodie - Casual Comfort</p>
                 </td>
             </tr>
@@ -185,9 +208,9 @@
                 </td>
                 <td>
                     <h3>Quick Links</h3>
-                    <p><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Home</a><br>
-                    <a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Products</a><br>
-                    <a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Contact</a></p>
+                    <p><a href="#" class="footer-link">Home</a><br>
+                    <a href="#" class="footer-link">Products</a><br>
+                    <a href="#" class="footer-link">Contact</a></p>
                 </td>
                 <td>
                     <h3>Follow Us</h3>
